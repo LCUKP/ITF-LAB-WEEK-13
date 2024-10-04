@@ -1,0 +1,88 @@
+body {
+    font-family: 'Kanit', Courier, monospace;
+    margin: 0;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.imge {
+    background-image: url("https://avatars.githubusercontent.com/u/87906191?s=400&u=2c146f847968c31868cf2947504c76cda7290093&v=4");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: 150px;
+    border-radius: 100px;
+}
+
+.nav {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.nav-items {
+    width: 20%;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.logo {
+    width: 80%;
+    margin-left: 5px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: aliceblue;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.body {
+    display: flex;
+    text-align: end;
+}
+
+.contact {
+    color: black;
+}
