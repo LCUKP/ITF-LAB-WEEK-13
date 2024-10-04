@@ -20,13 +20,17 @@ body {
     border-radius: 10px;
 }
 
-.imge {
+.btn {
     background-image: url("https://avatars.githubusercontent.com/u/87906191?s=400&u=2c146f847968c31868cf2947504c76cda7290093&v=4");
     width: 150px;
     height: 150px;
     background-position: center;
     background-size: 150px;
     border-radius: 100px;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .nav {
